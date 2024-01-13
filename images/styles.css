@@ -24,7 +24,6 @@ header {
     color: #FFF;
     text-align: center;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     border-radius: 8px;
     background: #FF900E;
@@ -67,7 +66,6 @@ nav li>a {
 .menu {
     color: #424242;
     text-align: center;
-    font-family: Work Sans;
     font-size: 18px;
     font-weight: 400;
 }
@@ -83,10 +81,15 @@ nav li>a {
 .banner-title {
     color: #131313;
     text-align: center;
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 700;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.banner-content .gray-text-description{
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .banner .banner-img>img {
@@ -94,4 +97,45 @@ nav li>a {
     width: 100%;
     align-items: center;
 
+}
+
+
+/* media query style for mobile device responsive */
+
+@media screen and (max-width:576px) {
+    
+    nav{
+        flex-direction: column;
+    }
+    
+    header{
+        padding: 0;
+    
+    }
+    .banner-title{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .banner-img{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+} 
+
+/* media query style for tablet or medium device responsive  */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding-left:10px;
+        padding-right: 10px;
+    }
+}
+
+/* main style add */
+
+main{
+    margin: 30px 240px;
+}
+
+.feature-container{
+    display: grid;
 }
