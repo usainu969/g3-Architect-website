@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+/*  ----- shared common style----- */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+.gray-text-description {
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* nav section styles adding */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    list-style: none;
+
+}
+
+nav li>a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.nav-title {
+    color: #131313;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.menu {
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* banner section styles adding start  */
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner .banner-img>img{
+    width: 800px;
+    width: 100%;
+    align-items: center;
+
+}
