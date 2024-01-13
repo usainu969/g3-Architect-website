@@ -10,7 +10,7 @@
 
 header {
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 50px 150px;
 }
 
 .gray-text-description {
@@ -87,7 +87,7 @@ nav li>a {
     margin-right: 100px;
 }
 
-.banner-content .gray-text-description{
+.banner-content .gray-text-description {
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -103,39 +103,82 @@ nav li>a {
 /* media query style for mobile device responsive */
 
 @media screen and (max-width:576px) {
-    
-    nav{
+
+    nav {
         flex-direction: column;
     }
-    
-    header{
+
+    header {
         padding: 0;
-    
+
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 35px;
         font-weight: 700;
     }
-    .banner-img{
+
+    .banner-img {
         margin-left: 10px;
         margin-right: 10px;
     }
-} 
+}
 
 /* media query style for tablet or medium device responsive  */
 @media screen and (min-width:576px) and (max-width:992px) {
-    header{
-        padding-left:10px;
+    header {
+        padding-left: 10px;
         padding-right: 10px;
     }
 }
 
 /* main style add */
 
-main{
-    margin: 30px 240px;
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-right: 120px;
+    padding-left: 120px;
 }
 
-.feature-container{
-    display: grid;
+.feature-container {
+    display: flex;
+    align-items: center;
+    gap: 35px;
 }
+
+.feature-text-title {
+    color: #131313;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.quick {
+    color: #727272;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.feature {
+    color: #FF900E;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+
+.feature-text {
+  
+}
+
+.feature-text .gray-text-description{
+    text-align: justify;
+}
+
+/* architect experience part style start  */
+
