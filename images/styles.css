@@ -99,39 +99,6 @@ nav li>a {
 
 }
 
-
-/* media query style for mobile device responsive */
-
-@media screen and (max-width:576px) {
-
-    nav {
-        flex-direction: column;
-    }
-
-    header {
-        padding: 0;
-
-    }
-
-    .banner-title {
-        font-size: 35px;
-        font-weight: 700;
-    }
-
-    .banner-img {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
-
-/* media query style for tablet or medium device responsive  */
-@media screen and (min-width:576px) and (max-width:992px) {
-    header {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
-
 /* main style add */
 
 main {
@@ -164,21 +131,70 @@ main {
     color: #FF900E;
     font-size: 35px;
     font-weight: 700;
-    
+
 }
-.feature-img{
+
+.feature-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px; 
+    gap: 20px;
 }
 
-.feature-text {
-  
-}
+.feature-text {}
 
-.feature-text .gray-text-description{
+.feature-text .gray-text-description {
     text-align: justify;
 }
 
-/* architect experience part style start  */
+/* architect section style start  */
 
+
+.architect-container {
+    border: 2px solid saddlebrown;
+    display: flex;
+    gap: 15px;
+}
+
+.architech-content {
+    border: 2px solid blue;
+    width: 50%;
+    margin: 20px;
+    padding: 25px;
+    gap: 20px;
+}
+
+.architech-content .architect-first-title {
+    border-left: 5px solid #FF900E;
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.first-content .common-description{
+    padding-left: 25px;
+    padding-right: 30px;
+}
+
+.common-text{
+    padding: 30px 30px 15px;
+}
+.architech-content .common-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.architech-content .common-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+
+.architech-img {
+    border: 2px solid yellow;
+    width: 50%;
+    margin: 20px;
+}

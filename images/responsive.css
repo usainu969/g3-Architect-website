@@ -1,0 +1,33 @@
+/* media query style for mobile device responsive */
+
+@media screen and (max-width:576px) {
+
+    nav, 
+    .feature-img
+    {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 0;
+
+    }
+
+    .banner-title {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .banner-img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* media query style for tablet or medium device responsive  */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
